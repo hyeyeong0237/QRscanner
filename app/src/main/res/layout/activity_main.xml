@@ -33,9 +33,10 @@
 
     <Button
         style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="47dp"
-        android:background="#A97BAED6"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#6CAADC"
         android:fontFamily="monospace"
         android:onClick="startBarcodeReaderCustomActivity"
         android:text="ULR QR READER"
